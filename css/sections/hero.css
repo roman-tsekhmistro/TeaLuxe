@@ -1,0 +1,30 @@
+.hero {
+	height: 500px;
+	background: url('/images/hero-bg.jpg') center center/cover no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	padding-bottom: 48px;
+}
+.hero__title {
+	color: var(--white-color);
+	font-family: var(--cormorant);
+	font-size: 60px;
+	font-weight: 400;
+
+	max-width: 800px;
+
+	margin-bottom: 20px;
+}
+
+.hero__subtitle {
+	font-size: 24px;
+	font-weight: 400;
+
+	color: var(--white-color);
+	font-family: var(--cormorant);
+
+	max-width: 560px;
+}
