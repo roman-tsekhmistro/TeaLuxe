@@ -10,7 +10,6 @@
 }
 .hero__title {
 	color: var(--white-color);
-	font-family: var(--cormorant);
 	font-size: 60px;
 	font-weight: 400;
 
@@ -24,7 +23,6 @@
 	font-weight: 400;
 
 	color: var(--white-color);
-	font-family: var(--cormorant);
 
 	max-width: 560px;
 }

@@ -3,6 +3,10 @@
 
 @import url('sections/header.css');
 @import url('sections/hero.css');
+@import url('sections/blockquote.css');
+@import url('sections/collection.css');
+@import url('sections/reviews.css');
+@import url('sections/blog.css');
 
 :root {
 	--cormorant: 'Cormorant', sans-serif;
@@ -16,6 +20,7 @@
 
 html {
 	box-sizing: border-box;
+	font-family: var(--cormorant);
 }
 
 *,
@@ -44,4 +49,11 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.section__title {
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 60px;
 }

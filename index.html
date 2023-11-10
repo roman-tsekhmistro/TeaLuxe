@@ -5,72 +5,304 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>TealuxE</title>
+		<link rel="icon" href="#" id="icon" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<header class="header">
-			<div class="container">
-				<div class="header__inner">
-					<a class="logo" href="#">
-						<img class="header__logo" src="images/logo.svg" alt="TealuxE" />
-					</a>
+		<main>
+			<header class="header">
+				<div class="container">
+					<div class="header__inner">
+						<a class="logo" href="#">
+							<img class="header__logo" src="images/logo.svg" alt="TealuxE" />
+						</a>
 
-					<nav class="menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a class="menu__link" href="#">Black</a>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a class="menu__link" href="#">Black</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#">Green</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#">White</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#">Oolong</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#">Pu-erh</a>
+								</li>
+							</ul>
+						</nav>
+						<ul class="user__actions">
+							<li class="user__actions">
+								<a class="user__actions--link" href="#"
+									><img
+										src="images/header-icons/backet-icon.svg"
+										alt="backet-icon"
+								/></a>
 							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">Green</a>
+							<li class="user__actions">
+								<a class="user__actions--link" href="#"
+									><img
+										src="images/header-icons/profile-icon.svg"
+										alt="profile-icon"
+								/></a>
 							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">White</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">Oolong</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link" href="#">Pu-erh</a>
+							<li class="user__actions">
+								<a class="user__actions--link" href="#"
+									><img src="images/header-icons/search.svg" alt="search-icon"
+								/></a>
 							</li>
 						</ul>
-					</nav>
-					<ul class="user__actions">
-						<li class="user__actions">
-							<a class="user__actions--link" href="#"
-								><img
-									src="images/header-icons/backet-icon.svg"
-									alt="backet-icon"
-							/></a>
+					</div>
+				</div>
+			</header>
+
+			<section class="hero">
+				<div class="container">
+					<h1 class="hero__title">
+						A cup of tea is a moment of calm in the chaos of life
+					</h1>
+					<h2 class="hero__subtitle">
+						Wide selection of high-quality teas from all over the world,
+						carefully curated by tea experts.
+					</h2>
+				</div>
+			</section>
+
+			<section class="blockquote flex-center">
+				<blockquote class="blockquote__text">
+					"Tea is not just a drink, it's a way of life and a way to connect with
+					our loved ones."
+				</blockquote>
+			</section>
+
+			<section class="collection">
+				<div class="container">
+					<h3 class="section__title">Explore our Collections</h3>
+					<ul class="collection__list">
+						<li class="collection__list--item">
+							<img
+								class="list__item--image"
+								src="images/tea-sorts/black.png"
+								alt="black tea"
+							/>
+							<h4 class="list__item--title">Black</h4>
 						</li>
-						<li class="user__actions">
-							<a class="user__actions--link" href="#"
-								><img
-									src="images/header-icons/profile-icon.svg"
-									alt="profile-icon"
-							/></a>
+						<li class="collection__list--item">
+							<img
+								class="list__item--image"
+								src="images/tea-sorts/green.png"
+								alt="green tea"
+							/>
+							<h4 class="list__item--title">Green</h4>
 						</li>
-						<li class="user__actions">
-							<a class="user__actions--link" href="#"
-								><img src="images/header-icons/search.svg" alt="search-icon"
-							/></a>
+						<li class="collection__list--item">
+							<img
+								class="list__item--image"
+								src="images/tea-sorts/white.png"
+								alt="white tea"
+							/>
+							<h4 class="list__item--title">White</h4>
+						</li>
+						<li class="collection__list--item">
+							<img
+								class="list__item--image"
+								src="images/tea-sorts/oolong.png"
+								alt="oolong tea"
+							/>
+							<h4 class="list__item--title">Oolong</h4>
+						</li>
+						<li class="collection__list--item">
+							<img
+								class="list__item--image"
+								src="images/tea-sorts/pu-erh.png"
+								alt="pu-erh of tea"
+							/>
+							<h4 class="list__item--title">Pu-erh</h4>
 						</li>
 					</ul>
 				</div>
-			</div>
-		</header>
+			</section>
 
-		<div class="hero">
-			<div class="container">
-				<h1 class="hero__title">
-					A cup of tea is a moment of calm in the chaos of life
-				</h1>
-				<h2 class="hero__subtitle">
-					Wide selection of high-quality teas from all over the world, carefully
-					curated by tea experts.
-				</h2>
-			</div>
-		</div>
+			<section class="reviews">
+				<div class="container">
+					<h2 class="section__title">What our Clients say</h2>
+					<ul class="reviews__list">
+						<li class="reviews__list--item">
+							<p class="item__quote">
+								"As a tea enthusiast, I have tried teas from all over the world,
+								but this tea store truly stands out. Their teas are of the
+								highest quality and the variety is impressive. This is
+								definitely a tea store that every tea lover should visit."
+							</p>
+							<h4 class="item__author">Alice</h4>
+						</li>
+						<li class="reviews__list--item">
+							<p class="item__quote">
+								"This tea store is my go-to for all my tea needs. Their
+								selection is unbeatable and the quality of their teas is
+								exceptional."
+							</p>
+							<h4 class="item__author">Mad-Hatter</h4>
+						</li>
+						<li class="reviews__list--item">
+							<p class="item__quote">
+								"If you're a tea lover, you must visit this tea store. The
+								selection is vast and the quality is outstanding. I guarantee
+								you won't be disappointed."
+							</p>
+							<h4 class="item__author">Dormouse</h4>
+						</li>
+						<li class="reviews__list--item">
+							<p class="item__quote">
+								"I am not a big tea drinker, but this tea store has converted
+								me. I highly recommend this tea store to anyone looking for a
+								high-quality tea experience."
+							</p>
+							<h4 class="item__author">March Hare</h4>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="blog">
+				<div class="container">
+					<h3 class="section__title blog__title">Our Tea Blog</h3>
+					<ul class="blog__list">
+						<li class="blog__list--item">
+							<img
+								class="list__item--image"
+								src="images/blog/robinson-crusoe.jpg"
+								alt="Tea Time Travels: Funny Moments from Around the World"
+							/>
+							<div class="list__item--content">
+								<h3 class="item__content--title">
+									Tea Time Travels: Funny Moments from Around the World
+								</h3>
+								<p class="item__content--author">by Robinson Crusoe</p>
+								<a class="item__content--btn" href="#">
+									<button class="item__btn">
+										Read
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="5"
+											height="10"
+											viewBox="0 0 5 10"
+											fill="none"
+										>
+											<path
+												d="M0.158658 9.83771C0.370205 10.0541 0.713188 10.0541 0.924735 9.83771L4.52402 6.15605C5.15848 5.50706 5.15868 4.45491 4.52446 3.80568L0.965333 0.16229C0.753788 -0.0540967 0.410804 -0.0540967 0.199258 0.16229C-0.0122874 0.378678 -0.0122874 0.729511 0.199258 0.945898L3.75931 4.58743C3.97086 4.80382 3.97086 5.15465 3.75931 5.37104L0.158658 9.0541C-0.0528872 9.27049 -0.0528872 9.62132 0.158658 9.83771Z"
+												fill="#151618"
+											/>
+										</svg>
+									</button>
+								</a>
+							</div>
+						</li>
+						<li class="blog__list--item">
+							<img
+								class="list__item--image"
+								src="images/blog/joker.jpg"
+								alt="The Role of Tea in Mental Health"
+							/>
+							<div class="list__item--content">
+								<h3 class="item__content--title">
+									The Role of Tea in Mental Health
+								</h3>
+								<p class="item__content--author">by Joker</p>
+								<a class="item__content--btn" href="#">
+									<button class="item__btn">
+										Read
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="5"
+											height="10"
+											viewBox="0 0 5 10"
+											fill="none"
+										>
+											<path
+												d="M0.158658 9.83771C0.370205 10.0541 0.713188 10.0541 0.924735 9.83771L4.52402 6.15605C5.15848 5.50706 5.15868 4.45491 4.52446 3.80568L0.965333 0.16229C0.753788 -0.0540967 0.410804 -0.0540967 0.199258 0.16229C-0.0122874 0.378678 -0.0122874 0.729511 0.199258 0.945898L3.75931 4.58743C3.97086 4.80382 3.97086 5.15465 3.75931 5.37104L0.158658 9.0541C-0.0528872 9.27049 -0.0528872 9.62132 0.158658 9.83771Z"
+												fill="#151618"
+											/>
+										</svg>
+									</button>
+								</a>
+							</div>
+						</li>
+						<li class="blog__list--item">
+							<img
+								class="list__item--image"
+								src="images/blog/casper.jpg"
+								alt="Tea-rific Tales: Hilarious Stories from Tea Lovers"
+							/>
+							<div class="list__item--content">
+								<h3 class="item__content--title">
+									Tea-rific Tales: Hilarious Stories from Tea Lovers
+								</h3>
+								<p class="item__content--author">
+									by Casper the Friendly Ghost
+								</p>
+								<a class="item__content--btn" href="#">
+									<button class="item__btn">
+										Read
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="5"
+											height="10"
+											viewBox="0 0 5 10"
+											fill="none"
+										>
+											<path
+												d="M0.158658 9.83771C0.370205 10.0541 0.713188 10.0541 0.924735 9.83771L4.52402 6.15605C5.15848 5.50706 5.15868 4.45491 4.52446 3.80568L0.965333 0.16229C0.753788 -0.0540967 0.410804 -0.0540967 0.199258 0.16229C-0.0122874 0.378678 -0.0122874 0.729511 0.199258 0.945898L3.75931 4.58743C3.97086 4.80382 3.97086 5.15465 3.75931 5.37104L0.158658 9.0541C-0.0528872 9.27049 -0.0528872 9.62132 0.158658 9.83771Z"
+												fill="#151618"
+											/>
+										</svg>
+									</button>
+								</a>
+							</div>
+						</li>
+						<li class="blog__list--item">
+							<img
+								class="list__item--image"
+								src="images/blog/author.jpg"
+								alt="Tea and Caffeine: Effects on the Brain and Behavior"
+							/>
+							<div class="list__item--content">
+								<h3 class="item__content--title">
+									Tea and Caffeine: Effects on the Brain and Behavior
+								</h3>
+								<p class="item__content--author">by Author Authorius</p>
+								<a class="item__content--btn" href="#">
+									<button class="item__btn">
+										Read
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="5"
+											height="10"
+											viewBox="0 0 5 10"
+											fill="none"
+										>
+											<path
+												d="M0.158658 9.83771C0.370205 10.0541 0.713188 10.0541 0.924735 9.83771L4.52402 6.15605C5.15848 5.50706 5.15868 4.45491 4.52446 3.80568L0.965333 0.16229C0.753788 -0.0540967 0.410804 -0.0540967 0.199258 0.16229C-0.0122874 0.378678 -0.0122874 0.729511 0.199258 0.945898L3.75931 4.58743C3.97086 4.80382 3.97086 5.15465 3.75931 5.37104L0.158658 9.0541C-0.0528872 9.27049 -0.0528872 9.62132 0.158658 9.83771Z"
+												fill="#151618"
+											/>
+										</svg>
+									</button>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<button class="view-all__button">View all</button>
+				</div>
+			</section>
+
+			<section class="know"></section>
+		</main>
 
 		<script src="js/main.js"></script>
 	</body>

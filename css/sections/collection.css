@@ -1,0 +1,28 @@
+.collection {
+	padding-bottom: 150px;
+}
+
+.collection__title {
+	margin-bottom: 60px;
+}
+
+.collection__list {
+	list-style: none;
+
+	display: flex;
+	align-items: center;
+	gap: 0 40px;
+	flex-wrap: wrap;
+}
+
+.collection__list--item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.list__item--title {
+	font-size: 24px;
+	font-weight: 400;
+}

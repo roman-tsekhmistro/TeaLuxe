@@ -1,0 +1,32 @@
+.blockquote {
+	min-height: 400px;
+}
+
+.blockquote__text {
+	position: relative;
+
+	max-width: 705px;
+
+	color: var(--black-color);
+	font-family: var(--cormorant);
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 300;
+
+	text-align: center;
+}
+
+.blockquote__text::after {
+	position: absolute;
+	content: '';
+
+	width: 360px;
+	height: 60px;
+
+	background-color: var(--light-bg);
+
+	right: -40px;
+	bottom: -15px;
+
+	z-index: -1;
+}
