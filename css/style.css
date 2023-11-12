@@ -7,6 +7,7 @@
 @import url('sections/collection.css');
 @import url('sections/reviews.css');
 @import url('sections/blog.css');
+@import url('sections/know.css');
 
 :root {
 	--cormorant: 'Cormorant', sans-serif;
@@ -16,6 +17,7 @@
 
 	--black-color: #151618;
 	--white-color: #ffffff;
+	--light-green: #b8b58b;
 }
 
 html {
@@ -56,4 +58,19 @@ ul {
 	font-weight: 400;
 	text-align: center;
 	margin-bottom: 60px;
+}
+
+.btn {
+	max-width: 151px;
+
+	display: block;
+	padding: 12px 41px;
+
+	font-family: var(--open-sans);
+	font-size: 20px;
+	font-weight: 300;
+
+	background-color: var(--white-color);
+
+	border: 1px solid var(--black-color);
 }

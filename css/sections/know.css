@@ -1,0 +1,81 @@
+.know {
+	background-color: var(--light-bg);
+	padding: 100px 0;
+	position: relative;
+	z-index: 0;
+}
+
+.know::after {
+	position: absolute;
+	content: '';
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	max-width: 680px;
+	z-index: -1;
+	background: url(/images/know-bg.jpg) center center/cover no-repeat;
+}
+
+.know > .container {
+	display: flex;
+	gap: 40px;
+}
+
+.know__inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.know__inner--text {
+	width: 580px;
+
+	font-family: var(--open-sans);
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.know__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.form__email {
+	display: flex;
+	align-items: flex-end;
+	gap: 25px;
+}
+
+.form__email input {
+	width: 440px;
+	background-color: transparent;
+	border: none;
+	font-family: var(--open-sans);
+	color: var(--light-green);
+
+	border-bottom: 1px solid var(--light-green);
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.form__email input:focus {
+	outline: none;
+}
+
+.form__email input::placeholder {
+	color: var(--light-green);
+}
+
+.form__checkbox {
+	display: flex;
+	align-items: flex-start;
+}
+
+.form__checkbox label {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 300;
+}

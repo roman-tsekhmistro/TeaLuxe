@@ -56,16 +56,6 @@
 	line-height: normal;
 }
 
-.view-all__button {
-	display: block;
+.blog__btn {
 	margin: 60px auto 0;
-	padding: 12px 41px;
-
-	font-family: var(--open-sans);
-	font-size: 20px;
-	font-weight: 300;
-
-	background-color: transparent;
-
-	border: 1px solid var(--black-color);
 }
