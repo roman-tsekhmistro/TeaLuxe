@@ -8,6 +8,7 @@
 @import url('sections/reviews.css');
 @import url('sections/blog.css');
 @import url('sections/know.css');
+@import url('sections/prioritises.css');
 
 :root {
 	--cormorant: 'Cormorant', sans-serif;
