@@ -1,6 +1,6 @@
 .hero {
 	height: 500px;
-	background: url('/images/hero-bg.jpg') center center/cover no-repeat;
+	background: url('/images/main-page/hero-bg.jpg') center center/cover no-repeat;
 
 	display: flex;
 	flex-direction: column;

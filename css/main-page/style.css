@@ -1,7 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
-
-@import url('sections/header.css');
+@import url('../header.css');
 @import url('sections/hero.css');
 @import url('sections/blockquote.css');
 @import url('sections/collection.css');
@@ -9,37 +6,7 @@
 @import url('sections/blog.css');
 @import url('sections/know.css');
 @import url('sections/prioritises.css');
-
-:root {
-	--cormorant: 'Cormorant', sans-serif;
-	--open-sans: 'Open Sans', sans-serif;
-
-	--light-bg: #f7f2ea;
-
-	--black-color: #151618;
-	--white-color: #ffffff;
-	--light-green: #b8b58b;
-}
-
-html {
-	box-sizing: border-box;
-	font-family: var(--cormorant);
-}
-
-*,
-*::after,
-*::before {
-	box-sizing: inherit;
-}
-
-a {
-	text-decoration: none;
-	color: inherit;
-}
-
-ul {
-	list-style: none;
-}
+@import url('../footer.css');
 
 .container {
 	max-width: 1240px;

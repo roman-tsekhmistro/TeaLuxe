@@ -72,6 +72,13 @@
 .form__checkbox {
 	display: flex;
 	align-items: flex-start;
+	gap: 10px;
+}
+
+.form__checkbox input {
+	height: 10px;
+	width: 10px;
+	margin: 0;
 }
 
 .form__checkbox label {
