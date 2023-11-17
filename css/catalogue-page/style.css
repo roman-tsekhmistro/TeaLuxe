@@ -1,1 +1,7 @@
 @import url('../header.css');
+@import url('sections/breadcrumbs.css');
+@import url('sections/catalogue.css');
+
+body {
+	margin: 0 200px;
+}
